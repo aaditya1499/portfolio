@@ -142,4 +142,7 @@
   .skill-text {
     font-size: 10px;
   }
+  header {
+    background-attachment: scroll;
+  }
 }
