@@ -145,4 +145,8 @@
   header {
     background-attachment: scroll;
   }
+  .about {
+    margin-bottom: 10%;
+    width: 100%;
+  }
 }
