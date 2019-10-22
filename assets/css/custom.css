@@ -1,6 +1,9 @@
 /* p.wide {
   color: white;
 } */
+
+/* theme color #00A1A7 */
+
 .bigheadline {
   font-weight: 400;
   font-family: "Playfair Display", serif;
@@ -267,4 +270,40 @@
 		-ms-transform: scale(1);
 		transform: scale(1);
 	}
+}
+
+.port figcaption {
+  color: #00A1A7;
+  height: auto;
+}
+
+.project-tech {
+  margin-top: 0.5em;
+}
+
+
+
+.project-tech .techs {
+  display: inline-block;
+  font-size: 0.9em;
+  color: #111111;
+  font-weight: 600;
+  background-color: #FFFFFF;
+  border-radius: 0.2em;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  margin-right: 0.5em;
+}
+
+.port figure:hover {
+  transform: scale(1.1);
+}
+
+.port figure {
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+  -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+  transition: transform 0.4s, opacity 0.1s;
+}
+
+.portfolio-exp {
+  padding-top: 40px !important;
 }
