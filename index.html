@@ -68,7 +68,7 @@
               </div>
             </div>
             <span
-              style="font-size:20px;cursor:pointer; margin-top: 2.1em; margin-left: -3.2em;position: fixed; z-index: 9999;"
+              style="font-size:20px;cursor:pointer; margin-top: 2.1em; margin-left: -2em;position: fixed; z-index: 9999;"
               class="abc" onclick="openNav()" id="ham"><i class="fa fa-bars" aria-hidden="true"></i></span>
           </div>
           <!-- <div class="mob">
@@ -87,8 +87,8 @@
         </div>
       </div>
       <div class="row mob-head">
-        <div class="video-container"><video src="img/vid.mp4" controlsList="nodownload" type="video/mp4" autoplay loop
-            class="bg-video"></video></div>
+        <div class="video-container"><video src="img/vid.mp4" playsinline autoplay loop muted
+        type="video/mp4" class="bg-video"></video></div>
         <div class="col-12">
           <div class="side">
             <img src="img/Logo WHITE.png" height="35em" alt="">
@@ -227,7 +227,8 @@
                   aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp; &nbsp;
               <a href="https://github.com/aaditya1499/" target="_blank"><i class="fab fa-github fa-lg"
                   aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="https://www.linkedin.com/in/aaditya-shrivastava/" target="_blank"><i class="fab fa-linkedin-in fa-lg"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
+              <a href="https://www.linkedin.com/in/aaditya-shrivastava/" target="_blank"><i
+                  class="fab fa-linkedin-in fa-lg"></i></a> &nbsp; &nbsp; &nbsp; &nbsp;
             </div>
           </div>
           <div class="col-md-6 dp">
@@ -351,17 +352,17 @@
             </div>
 
             <div class="odd">
-              <h4 class="inv">Neuratech Innovation Pvt Ltd</h4>
-              <p class="para">Web Developer Intern &nbsp;&nbsp;&nbsp;</p>
+              <h4 class="inv">Web Developer Intern</h4>
+              <p class="para">Neuratech Innovation Pvt Ltd</p>
               <p class="tech-icons"><i class="fab fa-html5"></i> &nbsp;&nbsp;<i class="fab fa-css3-alt"></i>&nbsp;&nbsp;
                 <i class="fab fa-js"></i> </i>&nbsp;&nbsp; <span class="tech-icons-text"></span></p>
               <div class="num">03</div>
             </div>
 
             <div class="even">
-              <h4 class="inv">Blue Sail Entertainments</h4>
+              <h4 class="inv">Web Developer Intern</h4>
               <span>
-                <p class="para">Web Developer Intern &nbsp;&nbsp;&nbsp;</p>
+                <p class="para">Blue Sail Entertainments</p>
                 <p class="tech-icons"><i class="fab fa-html5"></i> &nbsp;&nbsp;<i
                     class="fab fa-css3-alt"></i>&nbsp;&nbsp;
                   <i class="fab fa-js"></i> </i>&nbsp;&nbsp; <span class="tech-icons-text"></span></p>
@@ -642,7 +643,7 @@
     let loaderWrapper = document.querySelector('.loader-wrapper');
 
     window.addEventListener('load', function () {
-      $("#main").css("display","block")
+      $("#main").css("display", "block")
       // loaderWrapper.style.display = 'none';
       loaderWrapper.parentElement.removeChild(loaderWrapper);
     })
