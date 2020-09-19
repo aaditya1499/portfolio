@@ -83,6 +83,18 @@ a
     padding: 0;
     margin-bottom: 1%;
 }
+.down-icon {
+    position: absolute;
+    left: 49%;
+    top: 94%;
+}
+.down-icon:hover {
+    color: white;
+
+}
+.down-icon i {
+    font-size: 30px;
+} 
 .center
 {
     display: block;
@@ -366,8 +378,9 @@ a.social-links:hover {
 }
 .num
 {
-    margin-top: 2.5em;
+    margin-top: 55%;
     margin-left: 0.2em;
+    color: white;
 }
 .aa
 {
@@ -432,6 +445,7 @@ a.social-links:hover {
     padding-top: 0.2em;
     padding-left: 10px;
     font-size: 20px;
+    color: white;
 }
 .inv
 {
@@ -439,10 +453,12 @@ a.social-links:hover {
     padding-left: 0.3em;
     padding-right: 0.3em;
     font-weight: 600;
+    color: white;
 }
 
 .tech-icons {
     margin-left: 10px;
+    color: white;
 }
 
 .tech-icons i{
@@ -569,6 +585,7 @@ a.social-links:hover {
   {
       position: absolute;
       top: 2em;
+      left: 1.2em;
   }
   .loader-wrapper
   {
@@ -844,6 +861,9 @@ a.social-links:hover {
         width: 250px;
         height: 250px;
       }
+    .down-icon {
+        left: 45%;
+    }
 }
 /* transition in cards */
 
